@@ -1,0 +1,72 @@
+<style>
+  .hi-marek-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 200px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .hi-marek-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    animation: slideUpFade 1.5s ease-out forwards;
+  }
+
+  .hi-marek-text span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: reveal 0.8s forwards;
+  }
+
+  .hi-marek-text span:nth-child(1) { animation-delay: 0.2s; }
+  .hi-marek-text span:nth-child(2) { animation-delay: 0.3s; } /* i */
+  .hi-marek-text span:nth-child(3) { animation-delay: 0.4s; } /* space */
+  .hi-marek-text span:nth-child(4) { animation-delay: 0.5s; } /* M */
+  .hi-marek-text span:nth-child(5) { animation-delay: 0.6s; } /* a */
+  .hi-marek-text span:nth-child(6) { animation-delay: 0.7s; } /* r */
+  .hi-marek-text span:nth-child(7) { animation-delay: 0.8s; } /* e */
+  .hi-marek-text span:nth-child(8) { animation-delay: 0.9s; } /* k */
+
+  .emoji-hand {
+    display: inline-block;
+    animation: wave 2.5s infinite;
+    transform-origin: 70% 70%;
+    margin-left: 10px;
+    opacity: 0;
+    animation: wave 2.5s infinite, reveal 0.8s 1s forwards; /* reveal after text */
+  }
+
+  @keyframes reveal {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+</style>
+
+<div class="hi-marek-container">
+  <div class="hi-marek-text">
+    <span>H</span><span>i</span><span>&nbsp;</span><span>M</span><span>a</span><span>r</span><span>e</span><span>k</span>
+    <div class="emoji-hand">👋</div>
+  </div>
+</div>
+

@@ -1,200 +1,25 @@
 {
   "widgets": [
     {
-      "version": "1.0.1",
-      "title": "Custom External Widget test 2",
-      "type": "custom_external_widget",
-      "description": "External Widget for displaying interesting content",
-      "category": "external",
-      "containers": [
-        "Full width"
-      ],
-      "imageName": "custom_external_widget",
-      "widgetsLibrary": true,
-      "settings": {
-        "configurable": true,
-        "editable": true,
-        "removable": true,
-        "shared": false,
-        "movable": false
-      },
-      "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/custom_external_widget/content.html",
-        "method": "GET",
-        "requiresAuthentication": false,
-        "cacheStrategy": "no-cache"
-      }
-    },
-    {
-      "version": "1.0.1",
-      "title": "Custom External Widget 1",
-      "type": "custom_external_widget_1",
-      "description": "External Widget 1 for displaying interesting content",
-      "category": "external",
-      "containers": [
-        "Full width"
-      ],
-      "imageName": "custom_external_widget_1",
-      "widgetsLibrary": true,
-      "settings": {
-        "configurable": true,
-        "editable": true,
-        "removable": true,
-        "shared": false,
-        "movable": false
-      },
-      "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/custom_external_widget_1/content.html",
-        "method": "GET",
-        "requiresAuthentication": false,
-        "cacheStrategy": "no-cache"
-      }
-    },
-    {
       "version": "1.0.0",
-      "title": "Custom External Widget 2",
-      "type": "custom_external_widget_2",
-      "description": "External Widget 2 for displaying interesting content",
-      "category": "external",
+      "title": "Hi Marek",
+      "type": "hi_marek",
+      "description": "A friendly greeting widget",
+      "category": "greeting",
       "containers": [
         "Full width"
       ],
-      "imageName": "custom_external_widget_2",
+      "imageName": "hi_marek",
       "widgetsLibrary": true,
       "settings": {
-        "configurable": true,
+        "configurable": false,
         "editable": true,
         "removable": true,
         "shared": false,
-        "movable": false
+        "movable": true
       },
       "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/custom_external_widget_2/content.html",
-        "method": "GET",
-        "requiresAuthentication": false,
-        "cacheStrategy": "no-cache"
-      }
-    },
-    {
-      "version": "1.0.0",
-      "title": "Demo widget",
-      "type": "demo_widget",
-      "description": "Demo widget for displaying interesting content",
-      "category": "Demo",
-      "containers": [
-        "Full width"
-      ],
-      "imageName": "demo_widget",
-      "widgetsLibrary": true,
-      "settings": {
-        "configurable": true,
-        "editable": true,
-        "removable": true,
-        "shared": false,
-        "movable": false
-      },
-      "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/demo_widget/content.html",
-        "method": "GET",
-        "requiresAuthentication": false,
-        "cacheStrategy": "no-cache"
-      }
-    },
-    {
-      "version": "1.0.0",
-      "title": "Custom Complex Widget",
-      "type": "custom_complex_widget",
-      "description": "Complex React widget for displaying interactive content",
-      "category": "complex",
-      "containers": [
-        "Full width"
-      ],
-      "imageName": "custom_complex_widget",
-      "widgetsLibrary": true,
-      "settings": {
-        "configurable": true,
-        "editable": true,
-        "removable": true,
-        "shared": false,
-        "movable": false
-      },
-      "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/complex/content.html",
-        "method": "GET",
-        "requiresAuthentication": false,
-        "cacheStrategy": "no-cache"
-      }
-    },
-    {
-      "version": "1.0.0",
-      "title": "Pulse Europe 2025 New",
-      "type": "pulse_europe_widget_new",
-      "description": "Pulse Europe 2025 conference registration widget with Gainsight branding",
-      "category": "pulse",
-      "containers": [
-        "Full width"
-      ],
-      "imageName": "pulse_europe_widget",
-      "widgetsLibrary": true,
-      "settings": {
-        "configurable": true,
-        "editable": true,
-        "removable": true,
-        "shared": false,
-        "movable": false
-      },
-      "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/pulse_europe_widget/content.html",
-        "method": "GET",
-        "requiresAuthentication": false,
-        "cacheStrategy": "no-cache"
-      }
-    },
-    {
-      "version": "1.0.0",
-      "title": "Dad Jokes Flip Cards",
-      "type": "dad_jokes_flipcards",
-      "description": "Interactive flip cards with 5 clean dad jokes - hover to reveal punchlines",
-      "category": "entertainment",
-      "containers": [
-        "Full width"
-      ],
-      "imageName": "dad_jokes_flipcards",
-      "widgetsLibrary": true,
-      "settings": {
-        "configurable": true,
-        "editable": true,
-        "removable": true,
-        "shared": false,
-        "movable": false
-      },
-      "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/dad_jokes_flipcards/content.html",
-        "method": "GET",
-        "requiresAuthentication": false,
-        "cacheStrategy": "no-cache"
-      }
-    },
-    {
-      "version": "1.0.0",
-      "title": "Pulse Neobrutalism Banner",
-      "type": "pulse_neobrutalism_banner",
-      "description": "Bold neobrutalism-style Pulse promotional banner with aggressive colors and geometric shapes",
-      "category": "pulse",
-      "containers": [
-        "Full width"
-      ],
-      "imageName": "pulse_neobrutalism_banner",
-      "widgetsLibrary": true,
-      "settings": {
-        "configurable": true,
-        "editable": true,
-        "removable": true,
-        "shared": false,
-        "movable": false
-      },
-      "content": {
-        "endpoint": "https://raw.githubusercontent.com/SchoolKeep/widgets-repository-demo/refs/heads/main/widgets/pulse_neobrutalism_banner/content.html",
+        "endpoint": "https://raw.githubusercontent.com/gs-marekkoszlak/mk-widgets-demo/main/widgets/hi_marek/content.html",
         "method": "GET",
         "requiresAuthentication": false,
         "cacheStrategy": "no-cache"
