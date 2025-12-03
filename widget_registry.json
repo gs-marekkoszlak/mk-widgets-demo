@@ -3,9 +3,9 @@
     {
       "version": "1.0.0",
       "title": "Hi Marek",
-      "type": "hi_marek",
+      "type": "greeting",
       "description": "A friendly greeting widget",
-      "category": "greeting",
+      "category": "greetings",
       "containers": [
         "Full width"
       ],
@@ -20,6 +20,31 @@
       },
       "content": {
         "endpoint": "https://raw.githubusercontent.com/gs-marekkoszlak/mk-widgets-demo/main/widgets/hi_marek/content.html",
+        "method": "GET",
+        "requiresAuthentication": false,
+        "cacheStrategy": "no-cache"
+      }
+    },
+    {
+      "version": "1.0.0",
+      "title": "Public Courses",
+      "type": "courses",
+      "description": "Display public courses from Skilljar",
+      "category": "courses",
+      "containers": [
+        "Full width"
+      ],
+      "imageName": "public_courses",
+      "widgetsLibrary": true,
+      "settings": {
+        "configurable": false,
+        "editable": true,
+        "removable": true,
+        "shared": false,
+        "movable": true
+      },
+      "content": {
+        "endpoint": "https://raw.githubusercontent.com/gs-marekkoszlak/mk-widgets-demo/main/widgets/public_courses/content.html",
         "method": "GET",
         "requiresAuthentication": false,
         "cacheStrategy": "no-cache"
